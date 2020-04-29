@@ -5,7 +5,7 @@ const images = [
       title: "UniWhal",
       description: "A unicorn and a narwhal nuzzling their horns",
       keyword: "narwhal",
-      horns: 1
+      horns: 1 
     },
     {
       url:
@@ -105,14 +105,14 @@ const images = [
     },
     {
       url:
-        "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e7/Mufflon-02.jpg",
       title: "Mouflon",
       description: "Those horns though",
       keyword: "mouflon",
       horns: 2
     },
     {
-      url: "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/addax.jpg",
+      url: "https://lh3.googleusercontent.com/proxy/m_ZGIeLcColoBYGkMr4UO1LVkK-lne2TSaB-TiuFsJYYlPp3wBCM68i9_-0ugORsDEkCuSDiUsFzuLnBlZUU1c5jvJ9rpZe7JVt81enfG0dIZpxtrkVj021oo4poQtV3246S7rCW",
       title: "Addax",
       description:
         "This guy is basically extinct but survives well in captivity, so they're frequently found in zoos",
@@ -129,7 +129,7 @@ const images = [
     },
     {
       url:
-        "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/chameleon.jpg",
+        "https://www.chameleoncaremanual.com/images/jackson-chameleon.jpg",
       title: "Happy Jackson's Chameleon",
       description: "These are really common in Hawaii",
       keyword: "chameleon",
