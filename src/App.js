@@ -32,13 +32,11 @@ export default class App extends Component {
                              <option value= "addax"> addax </option>
                              <option value="unicorn"> unicorn </option>
                              <option value= "unilego"> unilego </option>
-                            <option value="1" >1 horn</option>
-                            <option value="2" >2 horns</option>
-                            <option value="3" >3 horns</option>
-                            <option value="100" >100 horns</option>
-                                   
+                             <option value="1" >1 horn</option>
+                             <option value="2" >2 horns</option>
+                             <option value="3" >3 horns</option>
+                             <option value="100" >100 horns</option>                                  
                          </select>
-
                             
                     </section>
 
@@ -50,17 +48,15 @@ export default class App extends Component {
                               if(!this.state.selected) return true;
             
                               else if (isNaN(Number(this.state.selected))) {
-                                 return (animal.keyword) === this.state.selected;
+                                   return (animal.keyword) === this.state.selected;
                                  } 
-                                 else {
-                                                
-                                return animal.horns === Number(this.state.selected); }
-                                 
+                                 else {                                                
+                                   return animal.horns === Number(this.state.selected);
+                               }                                
                             })
                             .map( hornAnimal => {
                               return <Animal hornType = { hornAnimal } />
                             })
-
                         }
                       </ul>
                     </section>
